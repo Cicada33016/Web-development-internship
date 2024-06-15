@@ -1,0 +1,147 @@
+body {
+    font-family: rajdhani-semibold;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: right;
+    float: right;
+}
+.headings{
+    font-size: 75px;
+}
+.navbar li {
+    list-style-type: none;
+    margin: 0 12px;
+    padding: 0px;
+    color: rgb(255, 255, 255);
+    align-items: end;
+  }
+.li{
+    list-style-type: square;
+    text-align: left;
+    margin-right: -225px;
+}
+.p4{
+    text-align: justify;
+    text-align: left;
+}
+.rajdhani-light {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .rajdhani-regular {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .rajdhani-medium {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .rajdhani-semibold {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .rajdhani-bold {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+header {
+    background-color: #757070;
+    padding: 2px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #ffffff;
+}
+
+main {
+    padding: 50px 0;
+    background-color: rgb(0, 0, 0);
+    
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    color: #ffffff;
+}
+
+.hero img {
+    width: 50%;
+    height: auto;
+}
+
+.hero-text {
+    width: 50%;
+    color: #ffffff;
+}
+
+.hero h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.hero p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.hero a {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.about {
+    text-align: center;
+    color: white;
+}
+
+.about h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.about p {
+    font-size: 1em;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 10px 0;
+    text-align: center;
+}
